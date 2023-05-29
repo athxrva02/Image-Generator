@@ -1,3 +1,3 @@
-# Current Status
-- https://youtu.be/EyIvuigqDoA?t=2076
-- Completed the homepage structure and added Card, Loaders and Formfields
+# Current Status - 29/05
+- https://youtu.be/EyIvuigqDoA?t=2805
+- Modified Formfield, added SupriseMe Logic
