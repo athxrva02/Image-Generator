@@ -18,7 +18,7 @@ const CreatePost = () => {
   const [loading, setLoading] = useState(false);
   
   const generateImg = () => {
-
+    
   }
 
   const handleSubmit = () => {};
@@ -32,7 +32,7 @@ const CreatePost = () => {
     setForm({ ...form, prompt: randomPrompt });
   };
 
-  
+
   return (
     
     <section className='max-w-7xl mx-auto'>
