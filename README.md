@@ -1,5 +1,5 @@
 # Current Status - 01/06
-- https://youtu.be/EyIvuigqDoA?t=3522
+- https://youtu.be/EyIvuigqDoA?t=4037
 - Modified Formfield, added SupriseMe Logic
 - Completed frontend
 - Added image placeholder
