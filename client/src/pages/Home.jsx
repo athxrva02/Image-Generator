@@ -26,10 +26,11 @@ const Home = () => {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json'
-          }
+          },
         })
         if(response.ok){
           const result = await response.json();
+          console.log(result.data);
           setAllPosts(result.data.reverse());
         }
       }
@@ -69,7 +70,7 @@ const Home = () => {
             )}
             <div className='grid lg:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-3'>
               {searchText ? (<RenderCards data = {[]} title = "No Search Results Found"/>) 
-              :( <RenderCards data = {allPosts} title = "No posts found"/>)}
+              :( <RenderCards data = {[]} title = "No posts found"/>)}
             </div>
           </>
         )

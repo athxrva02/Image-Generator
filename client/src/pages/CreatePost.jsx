@@ -1,5 +1,5 @@
 import React , { useState } from 'react'
-import {useNavigate} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { preview } from '../assets';
 import { getRandomPrompt } from '../utils';
@@ -56,7 +56,7 @@ const CreatePost = () => {
         const response = await fetch('http://localhost:8080/api/v1/post',{
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
           body: JSON.stringify(form)
         })
