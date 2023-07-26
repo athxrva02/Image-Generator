@@ -1,9 +1,4 @@
-# Current Status - 01/06
-- https://youtu.be/EyIvuigqDoA?t=4037
-- Modified Formfield, added SupriseMe Logic
-- Completed frontend
-- Added image placeholder
-- Given surpriseMe an actual working randomizer
-- Created Generate button and share button that are dynamic to work with states
-- Making serverside part
-- Installed express and basic structure
+# Build and Deploy a Full Stack MERN AI Image Generation App  MidJourney & DALL E Clone
+![Image Generation App](https://i.ibb.co/p0f27C2/Thumbnail-9.png)
+
+### Launch your development career with project-based coaching - https://www.jsmastery.pro
